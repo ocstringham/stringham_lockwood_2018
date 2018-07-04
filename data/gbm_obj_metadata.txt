@@ -1,0 +1,3 @@
+GBM object generated from dismo::gbm.step
+contains output of boosted regression trees model.
+also contains associated data and meta data (parameters used) of model

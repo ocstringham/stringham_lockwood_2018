@@ -1,0 +1,25 @@
+Compilation of 5 life history databases: Amniote database, AnAge database, AmphiBIO database, Mahoney et al. 2007, and Allen et al. 2017.
+See manuscript for methods on compiling databases.
+Also contains economic variables derived by the authors. 
+
+Field Descriptions
+
+1. col_sp: species name, referenced to Catalogue of Life (http://www.catalogueoflife.org/col/)
+2. col_sp_id: catalogue of life unique ID
+3. col_class: class of species, referenced to Catalogue of Life
+4. col_order: order of species, referenced to Catalogue of Life
+5. clade: order/suborder of species (used in manuscript). Derived by authors using Catalogue of Life
+6. col_family: family of species, referenced to Catalogue of Life
+7. col_genus: genus of species, referenced to Catalogue of Life
+8. sum_qty: total number of imports for a given species from LEMIS database from 1999 to 2012 (see manuscript for details)
+9. median_price: median price of a given species from 2012 - 2016. Data comes from online vendors. This has been adjusted for inflation to December 2016 US dollars.
+10. resid_time: number of years a given species was either imported or listed for sale by an online vendor
+11. max_life_yr: longevity of species (years)
+12. adult_mass_g: adult mass (grams)
+13. age_maturity_d: number of days species takes to reach sexual maturity
+14. adult_svl_cm: adult SVL length in centimeters
+15. clutch_size: number of eggs laid or offspring birthed in one clutch_size
+16. clutches_per_year: number of clutches laid per year
+17. fecundity: 'clutch_size' multiplied by 'clutches_per_year', derived by authors
+18. lht_source: description of what database each life history traits was derived from
+19. kraus_c_edd_1999: whether a species has been recorded as free-living/released (1) or not (0). See manuscript for details. 

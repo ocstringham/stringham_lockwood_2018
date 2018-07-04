@@ -1,0 +1,8 @@
+Database of the retail age and retail mass of each species data was available
+
+Field Descriptions
+1. col_sp: species name, referenced to Catalogue of Life (http://www.catalogueoflife.org/col/)
+2. median_age: the median retail age of a given species
+3. count_age: the number of listings that were used to calculate 'median_age'
+4. median_mass: the median retail mass of a given species
+5. count_mass: the number of listings that were used to calculate 'median_mass'
